@@ -3,7 +3,7 @@ let fetchData
 let cityName = 'New York'
 let weatherIconId
 const url = 'https://api.openweathermap.org/data/2.5/weather?q='
-const key = ',USA&appid=784cc716162001fa2b33a4fc0e10a446'
+const key = credentials.apiKey
 const displayBox = document.querySelector('.display-box') 
 const userInputCity = document.querySelector('.user-input-city')
 const userCityBtn = document.querySelector('.submit')
